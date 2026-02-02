@@ -1,11 +1,13 @@
 n = int(input())
 a = list(map(int, input().split()))
+
 ans_a = 0
 ans_b = 0
 
-i = 0
+i = 0 
 j = n - 1
-f_turn = True
+
+f_turn = True 
 
 while i <= j:
     x = 0
