@@ -1,8 +1,8 @@
 n = int(input())
 a = list(map(int, input().split()))
 
-ans_a = 0
-ans_b = 0
+ans_a = 0 # sereja
+ans_b = 0 # Dema
 
 i = 0 
 j = n - 1
@@ -10,7 +10,7 @@ j = n - 1
 f_turn = True 
 
 while i <= j:
-    x = 0
+    # x = 0
     if a[i] >= a[j]:
         x = a[i]
         i += 1
